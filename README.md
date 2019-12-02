@@ -26,7 +26,6 @@ bundling redundant copies jQuery.
 jquerylib::jquery_core(3)
 ```
 
-    ## [[1]]
     ## List of 10
     ##  $ name      : chr "jquery"
     ##  $ version   : chr "3.4.1"
