@@ -12,3 +12,8 @@ jq_cdn_download("2.2.4", TRUE)
 jq_cdn_download("2.2.4", FALSE)
 jq_cdn_download("1.12.4", TRUE)
 jq_cdn_download("1.12.4", FALSE)
+
+download.file(
+  "https://raw.githubusercontent.com/jquery/jquery/master/AUTHORS.txt",
+  "inst/lib/AUTHORS.txt"
+)
