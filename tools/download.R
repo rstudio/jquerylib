@@ -17,3 +17,8 @@ download.file(
   "https://raw.githubusercontent.com/jquery/jquery/master/AUTHORS.txt",
   "inst/lib/AUTHORS.txt"
 )
+
+download.file(
+  "https://raw.githubusercontent.com/jquery/jquery/master/LICENSE.txt",
+  "inst/lib/LICENSE.txt"
+)
