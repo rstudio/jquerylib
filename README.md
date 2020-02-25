@@ -1,4 +1,12 @@
 
+<!-- badges: start -->
+
+[![Travis build
+status](https://travis-ci.org/rstudio/jquerylib.svg?branch=master)](https://travis-ci.org/rstudio/jquerylib)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/jquerylib)](https://CRAN.R-project.org/package=jquerylib)
+<!-- badges: end -->
+
 # jquerylib
 
 Obtain ‘jQuery’ as an HTML dependency object

@@ -1,8 +1,8 @@
 Package: jquerylib
 Title: Obtain 'jQuery' as an HTML dependency object
 Version: 0.1
-Authors@R: c(person("Joe", "Cheng", role = c("aut", "cre"), email = "joe@rstudio.com"),
-    person("Carson", "Sievert", role = "aut", email = "carson@rstudio.com", comment = c(ORCID = "0000-0002-4958-2844")),
+Authors@R: c(person("Carson", "Sievert", role = c("aut", "cre"), email = "carson@rstudio.com", comment = c(ORCID = "0000-0002-4958-2844")),
+    person("Joe", "Cheng", role = "aut", email = "joe@rstudio.com"),
     person(family = "RStudio", role = "cph"))
 Description: Obtain 'jQuery' as an HTML dependency object.
 License: MIT + file LICENSE
