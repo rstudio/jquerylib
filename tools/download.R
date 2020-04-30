@@ -1,17 +1,14 @@
-jq_cdn_download <- function(version, minified = TRUE) {
-  basename <- paste0("jquery-", version, if (minified) ".min.js" else ".js")
+jq_cdn_download <- function(version) {
+  basenames <- paste0("jquery-", version, c(".min.js", ".min.map", ".js"))
   download.file(
-    file.path("https://code.jquery.com", basename),
-    file.path("inst", "lib", basename)
+    file.path("https://code.jquery.com", basenames),
+    file.path("inst", "lib", basenames)
   )
 }
 
-jq_cdn_download("3.5.0", TRUE)
-jq_cdn_download("3.5.0", FALSE)
-jq_cdn_download("2.2.4", TRUE)
-jq_cdn_download("2.2.4", FALSE)
-jq_cdn_download("1.12.4", TRUE)
-jq_cdn_download("1.12.4", FALSE)
+jq_cdn_download("3.5.0")
+jq_cdn_download("2.2.4")
+jq_cdn_download("1.12.4")
 
 download.file(
   "https://raw.githubusercontent.com/jquery/jquery/master/AUTHORS.txt",
