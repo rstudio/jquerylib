@@ -36,12 +36,12 @@ jquerylib::jquery_core(3)
 
     ## List of 10
     ##  $ name      : chr "jquery"
-    ##  $ version   : chr "3.4.1"
+    ##  $ version   : chr "3.5.0"
     ##  $ src       :List of 2
     ##   ..$ href: chr "https://code.jquery.com"
     ##   ..$ file: chr "lib"
     ##  $ meta      : NULL
-    ##  $ script    : chr "jquery-3.4.1.js"
+    ##  $ script    : chr "jquery-3.5.0.js"
     ##  $ stylesheet: NULL
     ##  $ head      : NULL
     ##  $ attachment: NULL

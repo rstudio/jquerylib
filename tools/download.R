@@ -6,8 +6,8 @@ jq_cdn_download <- function(version, minified = TRUE) {
   )
 }
 
-jq_cdn_download("3.4.1", TRUE)
-jq_cdn_download("3.4.1", FALSE)
+jq_cdn_download("3.5.0", TRUE)
+jq_cdn_download("3.5.0", FALSE)
 jq_cdn_download("2.2.4", TRUE)
 jq_cdn_download("2.2.4", FALSE)
 jq_cdn_download("1.12.4", TRUE)

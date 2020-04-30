@@ -25,7 +25,7 @@ jquery_core <- function(major_version = 3, minified = getOption("shiny.minified"
 }
 
 expand_version <- function(major_version) {
-  if (major_version == 3) return("3.4.1")
+  if (major_version == 3) return("3.5.0")
   if (major_version == 2) return("2.2.4")
   if (major_version == 1) return("1.12.4")
   stop("major_version must be 1, 2, or 3.")

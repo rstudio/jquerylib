@@ -4,7 +4,7 @@ test_that("jquery_core(3) can be rendered", {
   script <- htmltools::renderDependencies(list(jquery_core(3, minified = TRUE)), "file")
   expect_equal(
     as.character(script),
-    '<script src="lib/jquery-3.4.1.min.js"></script>'
+    '<script src="lib/jquery-3.5.0.min.js"></script>'
   )
 })
 
