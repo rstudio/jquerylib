@@ -3,6 +3,8 @@
 #' @param major_version The major version of jQuery Core. Currrently 1, 2, and 3 are supported.
 #' @param minified whether or not to provide a minified JavaScript file.
 #'
+#' @return A [htmltools::htmlDependency()] object.
+#'
 #' @importFrom htmltools htmlDependency
 #' @export
 jquery_core <- function(major_version = 3, minified = getOption("shiny.minified", TRUE)) {
