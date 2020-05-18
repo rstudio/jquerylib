@@ -6,7 +6,7 @@ jq_cdn_download <- function(version) {
   )
 }
 
-jq_cdn_download("3.5.0")
+jq_cdn_download("3.5.1")
 jq_cdn_download("2.2.4")
 jq_cdn_download("1.12.4")
 
