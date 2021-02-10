@@ -13,10 +13,10 @@ Obtain 'jQuery' as an HTML dependency object
 
 ## Installation
 
-**jquerylib** isn't yet available from CRAN, but you can install it with:
+**jquerylib** can be installed with:
 
 ```r
-remotes::install_github("rstudio/jquerylib")
+install.packages("jquerylib")
 ```
 
 ## Usage

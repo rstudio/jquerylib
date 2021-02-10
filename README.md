@@ -13,11 +13,10 @@ Obtain ‘jQuery’ as an HTML dependency object
 
 ## Installation
 
-**jquerylib** isn’t yet available from CRAN, but you can install it
-with:
+**jquerylib** can be installed with:
 
 ``` r
-remotes::install_github("rstudio/jquerylib")
+install.packages("jquerylib")
 ```
 
 ## Usage
@@ -36,12 +35,11 @@ jquerylib::jquery_core(3)
 
     ## List of 10
     ##  $ name      : chr "jquery"
-    ##  $ version   : chr "3.5.0"
-    ##  $ src       :List of 2
-    ##   ..$ href: chr "https://code.jquery.com"
+    ##  $ version   : chr "3.5.1"
+    ##  $ src       :List of 1
     ##   ..$ file: chr "lib"
     ##  $ meta      : NULL
-    ##  $ script    : chr "jquery-3.5.0.js"
+    ##  $ script    : chr "jquery-3.5.1.min.js"
     ##  $ stylesheet: NULL
     ##  $ head      : NULL
     ##  $ attachment: NULL
