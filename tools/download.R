@@ -1,8 +1,10 @@
 jq_cdn_download <- function(version) {
   basenames <- paste0("jquery-", version, c(".min.js", ".min.map", ".js"))
+  target <- file.path("inst", "lib", version)
+  dir.create(target, recursive = TRUE)
   download.file(
     file.path("https://code.jquery.com", basenames),
-    file.path("inst", "lib", basenames)
+    file.path(target, basenames)
   )
 }
 
