@@ -12,7 +12,7 @@ jquery_core <- function(major_version = 3, minified = getOption("shiny.minified"
   script <- paste0("jquery-", version, if (minified) ".min.js" else ".js")
   htmlDependency(
     "jquery", version,
-    src = list(file = "lib"),
+    src = list(file = file.path("lib", version)),
     package = "jquerylib",
     script = script
   )
