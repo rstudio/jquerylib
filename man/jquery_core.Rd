@@ -4,8 +4,7 @@
 \alias{jquery_core}
 \title{Obtain jQuery Core as an HTML dependency}
 \usage{
-jquery_core(major_version = 3, minified = getOption("shiny.minified",
-  TRUE))
+jquery_core(major_version = 3, minified = getOption("shiny.minified", TRUE))
 }
 \arguments{
 \item{major_version}{The major version of jQuery Core. Currrently 1, 2, and 3 are supported.}
