@@ -26,7 +26,7 @@ stable version of jQuery Core](https://code.jquery.com/). Here we use it
 to obtain jQuery 3.x, but currently 2.x and 1.x are also supported. You
 likely won’t need to use this package directly, but packages like
 **shiny** and **rmarkdown** will eventually use this package to avoid
-bundling redundant copies jQuery.
+bundling redundant copies of jQuery.
 
 ``` r
 jquerylib::jquery_core(3)
