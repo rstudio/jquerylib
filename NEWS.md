@@ -1,3 +1,5 @@
+# jquerylib (development version)
+
 # jquerylib 0.1.4
 
 * `jquery_core(3)` now returns 3.6.0 instead of 3.5.1.
