@@ -15,6 +15,10 @@ jq_cdn_download <- function(version) {
   # Add in source map location
   # Required given comments in https://blog.jquery.com/2014/01/24/jquery-1-11-and-2-1-released/
   jquery_min_js <- file.path(target, paste0("jquery-", version, ".min.js"))
+  # Make sure the sourceMappingURL does not exist
+  testthat::expect_false(
+    any(grepl("^//# sourceMappingURL=", readLines(jquery_min_js))
+  ))
   # Point to the version-less source map file
   cat(
     file = jquery_min_js,
